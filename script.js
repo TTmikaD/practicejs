@@ -1,11 +1,11 @@
-let elementInput = document.getElementById('pass');
+// let elementInput = document.getElementById('pass');
 
-document.getElementById('btn').onclick = function () {
-  if (elementInput.getAttribute('type') == 'password')
-    elementInput.setAttribute('type', 'text');
-  else if (elementInput.getAttribute('type') == 'text')
-    elementInput.setAttribute('type', 'password');
-};
+// document.getElementById('btn').onclick = function () {
+//   if (elementInput.getAttribute('type') == 'password')
+//     elementInput.setAttribute('type', 'text');
+//   else if (elementInput.getAttribute('type') == 'text')
+//     elementInput.setAttribute('type', 'password');
+// };
 
 // let colors = ['red', 'blue', 'pink', 'green', 'black'];
 
