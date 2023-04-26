@@ -32,16 +32,21 @@
 // document.getElementById('demo2').innerHTML =
 //   'The first paragraph (index 0) with class="intro" is:' + x[1].innerHTML;
 
+// let clickfunction = document.getElementById('do_Something');
 
-let clickfunction = document.getElementById('do_Something');
+// clickfunction.addEventListener('click', xxxx);
 
-clickfunction.addEventListener('click', xxxx);
+// function xxxx() {
+//   alert('xin chào!');
+// }
 
-function xxxx() {
-  alert('xin chào!');
-}
+// function click_me() {
+//   alert('xin chào lần 2');
+// }
+
+let element = document.getElementById('abc');
+
+console.log(element);
 
 
-function click_me() {
-  alert('xin chào lần 2');
-}
+let hrelement = element.hr
