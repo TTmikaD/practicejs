@@ -1,11 +1,11 @@
-// let elementInput = document.getElementById('pass');
+let elementInput = document.getElementById('pass');
 
-// document.getElementById('btn').onclick = function () {
-//   if (elementInput.getAttribute('type') == 'password')
-//     elementInput.setAttribute('type', 'text');
-//   else if (elementInput.getAttribute('type') == 'text')
-//     elementInput.setAttribute('type', 'password');
-// };
+document.getElementById('btn').onclick = function () {
+  if (elementInput.getAttribute('type') == 'password')
+    elementInput.setAttribute('type', 'text');
+  else if (elementInput.getAttribute('type') == 'text')
+    elementInput.setAttribute('type', 'password');
+};
 
 // let colors = ['red', 'blue', 'pink', 'green', 'black'];
 
@@ -16,7 +16,7 @@
 //   if (i >= colors.length) {
 //     i = 0;
 //   }
-// }, 500);
+// }, 500); 
 
 // setInterval(function () {
 //   let currentDate = new Date();
@@ -44,9 +44,8 @@
 //   alert('xin chào lần 2');
 // }
 
-let element = document.getElementById('abc');
+// let element = document.getElementById('abc');
 
-console.log(element);
+// console.log(element);
 
-
-let hrelement = element.hr
+// let hrelement = element.hr
